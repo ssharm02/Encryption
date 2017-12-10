@@ -2,7 +2,6 @@
  *
  * Sarthak Sharma PROG24178 JAVA 2 Professor Johnathan Penava Summary:
  * Assignment 6 Hashmaps cypher controller class, adds functionality to the Encryption2.fxml
- * File reading and writing not working as intended
  */
 package Assignment6_Sarthak_Sharma;
 
@@ -110,7 +109,8 @@ readFromFile();
  codedText.setText("encrypted_" + textToEncode.getText() + " was created.");
   }
  /**
-  * Read and write method - doesn't work
+  * Read and write method  Read content of a file and put content 
+  * in another file 
   */
  private void readFromFile() throws IOException {
      
