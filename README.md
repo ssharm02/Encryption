@@ -13,7 +13,7 @@ In the project folder, a file called myMessage.txt is present.  Enter whatever t
 ![alt text](https://i.imgur.com/cGqIUzG.png)
 
 The content of the myMessage.txt file will be encrypted once the "Encrypt file" button is pressed
-![alt text](https://i.imgur.com/XOtE71b.png)
-![alt text](https://i.imgur.com/KfiC9X6.png)
+![alt text](https://i.imgur.com/3H5GihX.png)
+![alt text](https://i.imgur.com/rLi9ttB.png)
 
 
