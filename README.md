@@ -5,4 +5,4 @@ This is a simple program that uses hash maps (key, value pairs). Each alphabetic
 
 Type text in text box
 
-![alt text](https://i.imgur.com/KBqIX2y.gif)
+![alt text](https://i.imgur.com/1Ugol1A.gif)
