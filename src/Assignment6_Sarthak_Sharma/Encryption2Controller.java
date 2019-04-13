@@ -73,6 +73,7 @@ private void textToEncode (ActionEvent event) {
         //for each loop converts one character at a time
         for (char x:UncodedText.toCharArray()) 
         {
+            System.out.println("Value of x " + x);
             //if the cypher class/hashmap contains the key
             if (cypher.cypher2.containsKey(x)) 
             {
