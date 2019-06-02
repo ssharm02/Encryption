@@ -65,15 +65,15 @@ public class Encryption2Controller implements Initializable {
             String CodedText = "";
             // Returns the value to which the specified key is mapped, or null if this map
             // contains no mapping for the key.
-            String HashMapChar = cypher.cypher2.get(UncodedText);
+            String HashMapChar = cypher.cypher_key_val_map.get(UncodedText);
 
             // for each loop converts one character at a time
-            for (char x : UncodedText.toCharArray()) {
-                System.out.println("Value of x " + x);
+            for (char user_string_char : UncodedText.toCharArray()) {
+                // System.out.println("Value of x " + user_string_char);
                 // if the cypher class/hashmap contains the key
-                if (cypher.cypher2.containsKey(x)) {
+                if (cypher.cypher_key_val_map.containsKey(user_string_char)) {
                     // Cypher2 is the hashmap containing key value pair
-                    CodedText += cypher.cypher2.get(x);
+                    CodedText += cypher.cypher_key_val_map.get(user_string_char);
                     // System.out.println(output2);
                 } else {
                     // don't translate
@@ -119,13 +119,13 @@ public class Encryption2Controller implements Initializable {
             String UnencryptedText = new String(Files.readAllBytes(Paths.get("myMessage.txt"))).toUpperCase();
             // Returns the value to which the specified key is mapped, or null if this map
             // contains no mapping for the key.
-            String HashMapChar = cypher.cypher2.get(UnencryptedText);
+            String HashMapChar = cypher.cypher_key_val_map.get(UnencryptedText);
 
             for (char x : UnencryptedText.toCharArray()) {
                 // if the cypher class/hashmap contains the key
-                if (cypher.cypher2.containsKey(x)) {
+                if (cypher.cypher_key_val_map.containsKey(x)) {
                     // Cypher2 is the hashmap containing key value pair
-                    EncryptedText += cypher.cypher2.get(x);
+                    EncryptedText += cypher.cypher_key_val_map.get(x);
 
                 } else {
                     // don't translate
