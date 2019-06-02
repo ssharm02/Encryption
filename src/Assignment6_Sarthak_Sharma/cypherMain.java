@@ -5,6 +5,7 @@ package Assignment6_Sarthak_Sharma;
  * Sarthak Sharma PROG24178 JAVA 2 Professor Johnathan Penava Summary:
  * Assignment 6 Hashmaps user enters string and the string is converted to value stored in the hashmap
  */
+
 /**
  *
  * @author SarthaksComp
@@ -19,7 +20,6 @@ import javafx.stage.Stage;
 
 public class cypherMain extends Application {
 
-    
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("Encryption2.fxml"));

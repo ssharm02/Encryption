@@ -1,6 +1,5 @@
 package Assignment6_Sarthak_Sharma;
 
-
 import java.util.HashMap;
 
 /*
@@ -9,49 +8,45 @@ import java.util.HashMap;
  * Assignment 6 Hashmaps cypher class, cotains the cypher values and keys
 */
 
-
-
 /**
  *
  * @author SarthaksComp
  */
 public class cypher {
-    
-    //Create a new hash map that will hold character and string as key value pair
-    public static HashMap<Character, String> cypher2 = new HashMap();
-    
-    //Method contains key value pair for the hash map
+
+    // Create a new hash map that will hold character and string as key value pair
+    public static HashMap<Character, String> cypher_key_val_map = new HashMap();
+
+    // Method contains key value pair for the hash map
     public static void createCypher() {
-        cypher2.put('A', "川");
-        cypher2.put('B', "う");
-        cypher2.put('C', "え");
-        cypher2.put('D', "か");
-        cypher2.put('E', "き");
-        cypher2.put('F', "く");
-        cypher2.put('G', "け");
-        cypher2.put('H', "こ");
-        cypher2.put('I', "が");
-        cypher2.put('J', "ぎ");
-        cypher2.put('K', "さ");
-        cypher2.put('L', "げ");
-        cypher2.put('M', "き");
-        cypher2.put('N', "ぎ");
-        cypher2.put('O', "せ");
-        cypher2.put('P', "ざ");
-        cypher2.put('Q', "ず");
-        cypher2.put('R', "ぜ");
-        cypher2.put('S', "ぞ");
-        cypher2.put('T', "た");
-        cypher2.put('U', "ち");
-        cypher2.put('V', "と");
-        cypher2.put('W', "だ");
-        cypher2.put('X', "ぢ");
-        cypher2.put('Y', "づ");
-        cypher2.put('Z', "ぢ");
-        cypher2.put(' ', "づ");
-        cypher2.put('.',"ぢ");
-        cypher2.put('@', "@");        
-    }//End of the method
+        cypher_key_val_map.put('A', "川");
+        cypher_key_val_map.put('B', "う");
+        cypher_key_val_map.put('C', "え");
+        cypher_key_val_map.put('D', "か");
+        cypher_key_val_map.put('E', "き");
+        cypher_key_val_map.put('F', "く");
+        cypher_key_val_map.put('G', "け");
+        cypher_key_val_map.put('H', "こ");
+        cypher_key_val_map.put('I', "が");
+        cypher_key_val_map.put('J', "ぎ");
+        cypher_key_val_map.put('K', "さ");
+        cypher_key_val_map.put('L', "げ");
+        cypher_key_val_map.put('M', "き");
+        cypher_key_val_map.put('N', "ぎ");
+        cypher_key_val_map.put('O', "せ");
+        cypher_key_val_map.put('P', "ざ");
+        cypher_key_val_map.put('Q', "ず");
+        cypher_key_val_map.put('R', "ぜ");
+        cypher_key_val_map.put('S', "ぞ");
+        cypher_key_val_map.put('T', "た");
+        cypher_key_val_map.put('U', "ち");
+        cypher_key_val_map.put('V', "と");
+        cypher_key_val_map.put('W', "だ");
+        cypher_key_val_map.put('X', "ぢ");
+        cypher_key_val_map.put('Y', "づ");
+        cypher_key_val_map.put('Z', "ぢ");
+        cypher_key_val_map.put(' ', "づ");
+        cypher_key_val_map.put('.', "ぢ");
+        cypher_key_val_map.put('@', "@");
+    }
 }
-
-
